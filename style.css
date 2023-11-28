@@ -1,0 +1,152 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f0e4e4;
+    margin: 40px;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Menu {
+    background-color:rgb(187, 181, 181);
+    border-radius: 1px;
+    box-shadow:20px rgb(246, 247, 246);
+    padding: 30px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 20px; 
+    padding: 0; 
+    background-color: #f0f1f1;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgb(215, 217, 217);
+    
+}
+.gambar-teks {
+    display: flex; 
+    align-items: center; 
+}
+.gambar-teks img {
+    max-width: 150px; 
+    height: 150px;
+    margin-right: 10px; 
+    background-color: rgb(192, 196, 200);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(146, 143, 143);
+}
+
+.item img {
+    max-width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: rgb(205, 199, 199);
+    color: #000;
+    box-shadow: 0 5px 10px rgb(200, 202, 202);
+}
+
+.flavor {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 2px; 
+    padding-top: 10px;
+    font-weight: bold; 
+
+}
+.price {
+    color: green;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px; 
+}
+
+button[type="reset"] {
+    background-color:rgb(153, 156, 158);
+    color: black;
+    font-weight: bold;
+    border: 5px;
+    padding: 5px 10px; 
+    border-radius: 30px; 
+    cursor: pointer; 
+  }
+  button[type="reset"]:hover {
+    background-color: rgb(246, 242, 242); 
+  }
+
+.input-harga {
+    width: 100px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center; 
+    float:auto;
+    margin-right: 10px; 
+}
+
+
+kotak-teks {
+    width: 15%; 
+    height: 5px; 
+    background-color: #afacac; 
+    border: 10px solid #282727; 
+    padding: 20px;
+    text-align: left; 
+    border-radius: 10px;
+} 
+.order-summary {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+}
+    
+.subtotal {
+    color: black; 
+    font-weight: 0; 
+    display: auto;
+    justify-content: flex-end;
+    font-size: 10px; 
+    margin: 10px;
+    padding: 30px;
+}
+.subtotal-amount {
+    margin-left: 50px; 
+}
+.total,.money{
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+}
+.total {
+    font-size: 30px;
+    padding-right: 15cm;
+    padding-top: 30px;
+    margin-left: auto;
+}
+
+.money {
+    font-size: 30px;
+    text-align: right; 
+    float:auto; 
+    color:black;
+}
+fieldset {
+    border: 2px solid rgb(1, 56, 1);
+    border-radius: 10px; 
+    background-color: rgb(45, 73, 45); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
